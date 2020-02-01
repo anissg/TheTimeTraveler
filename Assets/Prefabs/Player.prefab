@@ -5000,8 +5000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e76762f632a3684780d4760703afffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 10
-  lowJumpMultiplier: 40
+  fallMultiplier: 5
+  lowJumpMultiplier: 15
 --- !u!114 &6735711725802221853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5023,9 +5023,9 @@ MonoBehaviour:
   onLeftWall: 0
   wallSide: 0
   collisionRadius: 0.22
-  bottomOffset: {x: 0, y: -1.06}
-  rightOffset: {x: 0.5, y: -0.33}
-  leftOffset: {x: -0.5, y: -0.33}
+  bottomOffset: {x: 0, y: -1.05}
+  rightOffset: {x: 0.56, y: 0.7}
+  leftOffset: {x: -0.52, y: 0.68}
 --- !u!114 &6735711725802221852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5040,7 +5040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   speed: 10
-  jumpForce: 50
+  jumpForce: 15
   slideSpeed: 5
   wallJumpLerp: 10
   dashSpeed: 20
