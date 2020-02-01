@@ -1,4 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD:Assets/3rdParty/DOTween.meta
+guid: 3bedc4b70d4f0224599d4bba348ec105
+folderAsset: yes
+DefaultImporter:
+=======
+>>>>>>> Stashed changes
 guid: 5e9e7b84fbad62246984150151f3ba3b
 NativeFormatImporter:
   externalObjects: {}
