@@ -5,33 +5,41 @@ using UnityEngine;
 public enum Era
 {
     past,
-    present
+    present,
+    future
 }
 
 public class TimeTravel : MonoBehaviour
 {
     [SerializeField] private DigitalGlitch glitchEffect;
-    [SerializeField] private GameObject present;
     [SerializeField] private GameObject past;
+    [SerializeField] private GameObject present;
+    [SerializeField] private GameObject future;
 
     private Era era = Era.present;
-
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
         glitchEffect.intensity = Mathf.Max(0f, glitchEffect.intensity - 0.01f);
         
-        if (Input.GetButtonUp("Fire1") && era == Era.present)
+        if (Input.GetButtonUp("Fire1"))
         {
-            glitchEffect.intensity = 0.8f;
-            
-            present.SetActive(false);
-            past.SetActive(true);
-            era = Era.past;
+            if (era == Era.future)
+            {
+                glitchEffect.intensity = 0.8f;
+                past.SetActive(false);
+                present.SetActive(true);
+                future.SetActive(false);
+                era = Era.present;
+            }
+            else if (era == Era.present)
+            {
+                glitchEffect.intensity = 0.8f;
+                past.SetActive(true);
+                present.SetActive(false);
+                future.SetActive(false);
+                era = Era.past;
+            }
         }
 
         if (Input.GetButtonUp("Fire2") && era == Era.past)
