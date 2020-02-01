@@ -4823,7 +4823,7 @@ GameObject:
   - component: {fileID: 6735711725793107227}
   - component: {fileID: 6735711725793107226}
   - component: {fileID: 6735711725793107225}
-  - component: {fileID: 6735711725793107224}
+  - component: {fileID: 2023022813327668363}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -4915,7 +4915,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6735711725793107224
+--- !u!114 &2023022813327668363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4924,7 +4924,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6735711725793107228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9c8c358d94b24a4fbd8ce20af91d7a8, type: 3}
+  m_Script: {fileID: 11500000, guid: acec4eb8d7f633d4dabe4219182bd022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 0}
@@ -5013,25 +5013,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6735711725802221826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3286969c5df8a1e4bb64bc92ea46495e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e76762f632a3684780d4760703afffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  speed: 7
-  jumpForce: 12
-  slideSpeed: 1
-  wallJumpLerp: 5
-  dashSpeed: 40
-  canMove: 1
-  wallGrab: 0
-  wallJumped: 0
-  wallSlide: 0
-  isDashing: 0
-  side: 1
-  dashParticle: {fileID: 6735711726370002236}
-  jumpParticle: {fileID: 6735711726296185019}
-  wallJumpParticle: {fileID: 6735711725438126553}
-  slideParticle: {fileID: 6735711726329344207}
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
 --- !u!114 &6735711725802221853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5041,11 +5027,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6735711725802221826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d071a2142a4939342a4ee88613274c86, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b97a618c69b2a241b94b1d5076bcaba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 3
-  lowJumpMultiplier: 8
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  onGround: 0
+  onWall: 0
+  onRightWall: 0
+  onLeftWall: 0
+  wallSide: 0
+  collisionRadius: 0.25
+  bottomOffset: {x: 0, y: 0}
+  rightOffset: {x: 0, y: 0}
+  leftOffset: {x: 0, y: 0}
 --- !u!114 &6735711725802221852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5055,21 +5051,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 6735711725802221826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 406198e895886ed45b8b2053e80bd604, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c7eaf9076ef514459f925961acfa9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  onGround: 0
-  onWall: 0
-  onRightWall: 0
-  onLeftWall: 0
-  wallSide: 0
-  collisionRadius: 0.1
-  bottomOffset: {x: 0, y: -0.79}
-  rightOffset: {x: 0.5, y: -0.33}
-  leftOffset: {x: -0.5, y: -0.33}
+  rb: {fileID: 0}
+  speed: 10
+  jumpForce: 50
+  slideSpeed: 5
+  wallJumpLerp: 10
+  dashSpeed: 20
+  canMove: 0
+  wallGrab: 0
+  wallJumped: 0
+  wallSlide: 0
+  isDashing: 0
+  side: 1
+  dashParticle: {fileID: 6735711726370002236}
+  jumpParticle: {fileID: 6735711726296185019}
+  wallJumpParticle: {fileID: 6735711725438126553}
+  slideParticle: {fileID: 6735711726329344207}
 --- !u!1 &6735711726296185022
 GameObject:
   m_ObjectHideFlags: 0
