@@ -4884,13 +4884,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5687433107252131833, guid: 9b4a8cd55e7c4f2499ae2e19bb517ecc,
+  m_Sprite: {fileID: 3148477544007095770, guid: 9d54c6f7ae566584dbd7c19a06b330ea,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 1.25, y: 2.125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4938,10 +4938,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6735711725802221855}
   - component: {fileID: 6735711725802221824}
-  - component: {fileID: 6735711725802221825}
   - component: {fileID: 6735711725802221854}
   - component: {fileID: 6735711725802221853}
   - component: {fileID: 6735711725802221852}
+  - component: {fileID: 1014688555}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4988,22 +4988,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!70 &6735711725802221825
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6735711725802221826}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.33}
-  m_Size: {x: 0.86, y: 0.82}
-  m_Direction: 0
 --- !u!114 &6735711725802221854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5016,8 +5000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e76762f632a3684780d4760703afffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 2.5
-  lowJumpMultiplier: 2
+  fallMultiplier: 10
+  lowJumpMultiplier: 40
 --- !u!114 &6735711725802221853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5038,8 +5022,8 @@ MonoBehaviour:
   onRightWall: 0
   onLeftWall: 0
   wallSide: 0
-  collisionRadius: 0.1
-  bottomOffset: {x: 0, y: -0.79}
+  collisionRadius: 0.22
+  bottomOffset: {x: 0, y: -1.06}
   rightOffset: {x: 0.5, y: -0.33}
   leftOffset: {x: -0.5, y: -0.33}
 --- !u!114 &6735711725802221852
@@ -5070,6 +5054,22 @@ MonoBehaviour:
   jumpParticle: {fileID: 6735711726296185019}
   wallJumpParticle: {fileID: 6735711725438126553}
   slideParticle: {fileID: 6735711726329344207}
+--- !u!70 &1014688555
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735711725802221826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.01872015, y: -0.05149269}
+  m_Size: {x: 1.080327, y: 2.0017586}
+  m_Direction: 0
 --- !u!1 &6735711726296185022
 GameObject:
   m_ObjectHideFlags: 0
