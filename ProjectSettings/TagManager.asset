@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Spikes
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Past
+    uniqueID: 3473087567
+    locked: 0
+  - name: Present
+    uniqueID: 3682358807
+    locked: 0
+  - name: Timeless
+    uniqueID: 2958019659
     locked: 0
