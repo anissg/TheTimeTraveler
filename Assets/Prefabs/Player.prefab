@@ -4944,6 +4944,7 @@ GameObject:
   - component: {fileID: 1014688555}
   - component: {fileID: 1777274954}
   - component: {fileID: 1648242295}
+  - component: {fileID: 1794705351911431305}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5004,8 +5005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e76762f632a3684780d4760703afffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 5
-  lowJumpMultiplier: 15
+  fallMultiplier: 0.5
+  lowJumpMultiplier: 5
 --- !u!114 &6735711725802221853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5043,11 +5044,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 10
+  speed: 5
   jumpForce: 15
-  slideSpeed: 5
-  wallJumpLerp: 10
-  dashSpeed: 20
+  slideSpeed: 1
+  wallJumpLerp: 5
+  dashSpeed: 1
   canMove: 1
   wallGrab: 0
   wallJumped: 0
@@ -5104,6 +5105,23 @@ MonoBehaviour:
   sonarShadow: {fileID: 0}
   sonarDuration: 2
   sonar: {fileID: 6745941943102769916}
+--- !u!114 &1794705351911431305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735711725802221826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f18820ea5d94649806bea2205997bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shadowPresent: {fileID: 0}
+  shadowPast: {fileID: 0}
+  past: {fileID: 0}
+  timeTravelShadow: {fileID: 0}
+  shadow: {fileID: 8119014023045716801}
 --- !u!1 &6735711726296185022
 GameObject:
   m_ObjectHideFlags: 0

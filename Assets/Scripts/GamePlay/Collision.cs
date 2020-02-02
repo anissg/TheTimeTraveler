@@ -53,4 +53,12 @@ public class Collision : MonoBehaviour
         Gizmos.DrawWireSphere((Vector2)transform.position + rightOffset, collisionRadius);
         Gizmos.DrawWireSphere((Vector2)transform.position + leftOffset, collisionRadius);
     }
+
+    public bool OnWall(float directionX)
+    {
+        onWall = (Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, groundLayer) && directionX > 0)
+                 || (Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, groundLayer) && directionX < 0);
+
+        return onWall;
+    }
 }
