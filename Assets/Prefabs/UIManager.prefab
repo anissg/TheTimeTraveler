@@ -228,7 +228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.9, y: -115.5}
+  m_AnchoredPosition: {x: -30.900024, y: -115.5}
   m_SizeDelta: {x: 56, y: 225.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4981138241211318068
@@ -315,6 +315,7 @@ GameObject:
   - component: {fileID: 3901918882688193980}
   - component: {fileID: 4803416462504769209}
   - component: {fileID: 3912278188922088968}
+  - component: {fileID: 669472709}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -338,8 +339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012398, y: 195}
-  m_SizeDelta: {x: 211.1, y: 216.8}
+  m_AnchoredPosition: {x: 0.000030518, y: 532}
+  m_SizeDelta: {x: 507.2, y: 507.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4803416462504769209
 CanvasRenderer:
@@ -377,6 +378,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &669472709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5548412968093215549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 1
 --- !u!1 &8384200899584272828
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,8 +428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -109.5}
-  m_SizeDelta: {x: -275.15, y: -263}
+  m_AnchoredPosition: {x: 0, y: -311.3}
+  m_SizeDelta: {x: -275.2, y: -666.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5288889710074355570
 CanvasRenderer:
@@ -528,17 +543,17 @@ MonoBehaviour:
     en marche, ainsi tu pourras ramener ta fesse l\xE0 o\xF9 je suis enferm\xE9 et
     me lib\xE9rer ! D\xE9p\xEAche-toi escargot !"
   images:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -7070448103725240342, guid: ed337eac9f668f1489d7dc4464be1dec, type: 3}
+  - {fileID: -9098327271610529341, guid: 9d54c6f7ae566584dbd7c19a06b330ea, type: 3}
+  - {fileID: -7070448103725240342, guid: ed337eac9f668f1489d7dc4464be1dec, type: 3}
+  - {fileID: 3148477544007095770, guid: 9d54c6f7ae566584dbd7c19a06b330ea, type: 3}
+  - {fileID: -7070448103725240342, guid: ed337eac9f668f1489d7dc4464be1dec, type: 3}
+  - {fileID: 3148477544007095770, guid: 9d54c6f7ae566584dbd7c19a06b330ea, type: 3}
+  - {fileID: -7070448103725240342, guid: ed337eac9f668f1489d7dc4464be1dec, type: 3}
+  - {fileID: 3148477544007095770, guid: 9d54c6f7ae566584dbd7c19a06b330ea, type: 3}
+  - {fileID: -7070448103725240342, guid: ed337eac9f668f1489d7dc4464be1dec, type: 3}
+  - {fileID: 3148477544007095770, guid: 9d54c6f7ae566584dbd7c19a06b330ea, type: 3}
+  - {fileID: -7070448103725240342, guid: ed337eac9f668f1489d7dc4464be1dec, type: 3}
   currentText: 0
 --- !u!1 &9018080995708581917
 GameObject:
@@ -572,10 +587,10 @@ RectTransform:
   m_Father: {fileID: 2494648830558736011}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1, y: 1}
-  m_SizeDelta: {x: 421.2, y: 122.9}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -100, y: -100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2152025524719676838
 CanvasRenderer:

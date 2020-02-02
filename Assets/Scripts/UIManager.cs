@@ -14,14 +14,17 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI textarea;
     public Image image;
     public string[] texts;
-    public Image[] images;
+    public Sprite[] images;
 
     public int currentText = 0;
     // Start is called before the first frame update
     public void Awake()
     {
-        if(Instance != null)
+        if (Instance != null)
+        {
             Destroy(gameObject);
+            return;
+        }
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
@@ -31,7 +34,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         //Debug.Log(SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1));
-        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1))
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(2))
         {
            // Debug.Log("hello");
             textObj.SetActive(true);
@@ -80,6 +83,6 @@ public class UIManager : MonoBehaviour
     public void SetText(int i)
     {
         textarea.text = texts[i];
-        image = images[i];
+        image.sprite = images[i];
     }
 }

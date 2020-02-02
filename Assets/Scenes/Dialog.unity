@@ -183,31 +183,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4051038568683157890, guid: b065ff20f36264e4d975cb7d0acf9da4,
-        type: 3}
-      propertyPath: texts.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4051038568683157890, guid: b065ff20f36264e4d975cb7d0acf9da4,
-        type: 3}
-      propertyPath: currentText
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4051038568683157890, guid: b065ff20f36264e4d975cb7d0acf9da4,
-        type: 3}
-      propertyPath: texts.Array.data[0]
-      value: Hello
-      objectReference: {fileID: 0}
-    - target: {fileID: 4051038568683157890, guid: b065ff20f36264e4d975cb7d0acf9da4,
-        type: 3}
-      propertyPath: texts.Array.data[1]
-      value: 'Hi '
-      objectReference: {fileID: 0}
-    - target: {fileID: 4051038568683157890, guid: b065ff20f36264e4d975cb7d0acf9da4,
-        type: 3}
-      propertyPath: texts.Array.data[2]
-      value: How Are You
-      objectReference: {fileID: 0}
     - target: {fileID: 8932937317946266917, guid: b065ff20f36264e4d975cb7d0acf9da4,
         type: 3}
       propertyPath: m_Name

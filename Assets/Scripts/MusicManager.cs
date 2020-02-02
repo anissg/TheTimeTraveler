@@ -24,12 +24,27 @@ public class MusicManager : MonoBehaviour
     public AudioClip[] leverClips;
     public AudioClip[] doorClips;
     public AudioClip[] powerClips;
+    [Header("Ui clips")]
+    public AudioClip[] UiClips;
     private void Awake()
     {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
     // Start is called before the first frame update
-
+    public void Start()
+    {
+        presentAudio.clip = UiClips[0];
+        pastAudio.clip  = UiClips[0];
+        presentAudio.Play();
+        pastAudio.Play();
+    }
     public void SwitchMusic()
     {
         float pVol;

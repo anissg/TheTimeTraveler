@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class Splash : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Splash : MonoBehaviour
     public float setTime = 3.0f;        //Duration before loading next level
     public float dimTime = 2.0f;        //Duration Before Staring to Fade or Dim Lights
     public float zoomSpeed = 0.2f;      //Speed at which camera zooms in
-
+    private bool next;
     private SpriteRenderer spriteRenderer;
 
     float timer;     // Use this for initialization
@@ -29,8 +30,10 @@ public class Splash : MonoBehaviour
         {
             //spriteRenderer.
         }
-        else if (timer > setTime) {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        else if (timer > setTime && !next) {
+            UIManager.Instance.FadeInNextScene();
+            next = true;
+
         }
     }
 
