@@ -36,11 +36,13 @@ public class UIManager : MonoBehaviour
         //Debug.Log(SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1));
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(2))
         {
-           // Debug.Log("hello");
+            // Debug.Log("hello");
             textObj.SetActive(true);
+            if(currentText < 11)
             SetText(currentText);
             if (Input.GetButtonDown("Jump"))
             {
+
                 currentText++;
                 if (currentText == texts.Length)
                 {
