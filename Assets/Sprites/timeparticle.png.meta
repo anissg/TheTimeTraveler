@@ -1,0 +1,2023 @@
+fileFormatVersion: 2
+guid: 9e5e2117e0a795d4f91d597f12f4c2a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8961423248540601123
+    second: timeparticle_0
+  - first:
+      213: 2939393481994867577
+    second: timeparticle_1
+  - first:
+      213: 3031295728603074349
+    second: timeparticle_2
+  - first:
+      213: 4620201193354796560
+    second: timeparticle_3
+  - first:
+      213: 4088886342029598407
+    second: timeparticle_4
+  - first:
+      213: -1759990573635212292
+    second: timeparticle_5
+  - first:
+      213: -7311960799831525226
+    second: timeparticle_6
+  - first:
+      213: 4734928730922245638
+    second: timeparticle_7
+  - first:
+      213: 3466453148419007313
+    second: timeparticle_8
+  - first:
+      213: -3919685311455672524
+    second: timeparticle_9
+  - first:
+      213: 6458447914939388404
+    second: timeparticle_10
+  - first:
+      213: -1180026149009470804
+    second: timeparticle_11
+  - first:
+      213: -2004876926363511468
+    second: timeparticle_12
+  - first:
+      213: 3144365898624819757
+    second: timeparticle_13
+  - first:
+      213: 3013414006440463345
+    second: timeparticle_14
+  - first:
+      213: -2908001905145280058
+    second: timeparticle_15
+  - first:
+      213: -8268938800760139816
+    second: timeparticle_16
+  - first:
+      213: -1226187336334531552
+    second: timeparticle_17
+  - first:
+      213: 1962397100071233113
+    second: timeparticle_18
+  - first:
+      213: 3592217079835259520
+    second: timeparticle_19
+  - first:
+      213: -4726626739769917334
+    second: timeparticle_20
+  - first:
+      213: 1178078155720473005
+    second: timeparticle_21
+  - first:
+      213: 3704346342381264297
+    second: timeparticle_22
+  - first:
+      213: -6423708820856269212
+    second: timeparticle_23
+  - first:
+      213: 172862249703402844
+    second: timeparticle_24
+  - first:
+      213: 6705879042066759799
+    second: timeparticle_25
+  - first:
+      213: -608348911767152793
+    second: timeparticle_26
+  - first:
+      213: -971288595015910525
+    second: timeparticle_27
+  - first:
+      213: -1657052912184905283
+    second: timeparticle_28
+  - first:
+      213: 163484939015829499
+    second: timeparticle_29
+  - first:
+      213: 5454985553503136550
+    second: timeparticle_30
+  - first:
+      213: -7460290403505241460
+    second: timeparticle_31
+  - first:
+      213: 3796190278462281329
+    second: timeparticle_1
+  - first:
+      213: 9107339152342863114
+    second: timeparticle_0
+  - first:
+      213: -2736768696072924526
+    second: timeparticle_2
+  - first:
+      213: 1140237637624428393
+    second: timeparticle_3
+  - first:
+      213: 8362314870656109784
+    second: timeparticle_4
+  - first:
+      213: -4168887733479850153
+    second: timeparticle_5
+  - first:
+      213: 4442591572529472931
+    second: timeparticle_6
+  - first:
+      213: -7516575911912892591
+    second: timeparticle_7
+  - first:
+      213: 6922039679720318189
+    second: timeparticle_8
+  - first:
+      213: 573785240754539972
+    second: timeparticle_9
+  - first:
+      213: 8820959987881099577
+    second: timeparticle_10
+  - first:
+      213: 4152946654606998312
+    second: timeparticle_11
+  - first:
+      213: -6947799841567512623
+    second: timeparticle_12
+  - first:
+      213: -8529087231445331476
+    second: timeparticle_13
+  - first:
+      213: 1144691710128179140
+    second: timeparticle_14
+  - first:
+      213: -2363124857927169196
+    second: timeparticle_15
+  - first:
+      213: 507815710783951747
+    second: timeparticle_16
+  - first:
+      213: -7874834334082788501
+    second: timeparticle_17
+  - first:
+      213: 2247895463903648296
+    second: timeparticle_18
+  - first:
+      213: 4493938234478303118
+    second: timeparticle_19
+  - first:
+      213: -6626045861097163738
+    second: timeparticle_20
+  - first:
+      213: 7519290857173846660
+    second: timeparticle_21
+  - first:
+      213: 6756106682100340356
+    second: timeparticle_22
+  - first:
+      213: -651883869126788376
+    second: timeparticle_23
+  - first:
+      213: 5202142301603742445
+    second: timeparticle_24
+  - first:
+      213: 1627127484074269127
+    second: timeparticle_25
+  - first:
+      213: 5519421326138418886
+    second: timeparticle_26
+  - first:
+      213: 4884900513759357330
+    second: timeparticle_27
+  - first:
+      213: -3513747725745396297
+    second: timeparticle_28
+  - first:
+      213: -1306245497122075352
+    second: timeparticle_29
+  - first:
+      213: -3645802448619180858
+    second: timeparticle_30
+  - first:
+      213: 681349213409975085
+    second: timeparticle_31
+  - first:
+      213: 7036818924019299728
+    second: timeparticle_32
+  - first:
+      213: -6830875090791318330
+    second: timeparticle_33
+  - first:
+      213: 2541423875800652667
+    second: timeparticle_34
+  - first:
+      213: -2501434587310773146
+    second: timeparticle_35
+  - first:
+      213: -8267203455082886388
+    second: timeparticle_36
+  - first:
+      213: 7729305425453838511
+    second: timeparticle_37
+  - first:
+      213: 893038618011934227
+    second: timeparticle_38
+  - first:
+      213: -5345219054345861282
+    second: timeparticle_39
+  - first:
+      213: -6016763593418133432
+    second: timeparticle_40
+  - first:
+      213: 8782783590056821653
+    second: timeparticle_41
+  - first:
+      213: 8706949736466117699
+    second: timeparticle_42
+  - first:
+      213: 7791651916180157161
+    second: timeparticle_43
+  - first:
+      213: 4407726487205189896
+    second: timeparticle_44
+  - first:
+      213: -537529983459797714
+    second: timeparticle_45
+  - first:
+      213: 8095741126302886564
+    second: timeparticle_46
+  - first:
+      213: -1046581434306235470
+    second: timeparticle_47
+  - first:
+      213: -2360263846944252193
+    second: timeparticle_48
+  - first:
+      213: -7470332904002641453
+    second: timeparticle_49
+  - first:
+      213: 1426698485259591478
+    second: timeparticle_50
+  - first:
+      213: -8583863889508266291
+    second: timeparticle_51
+  - first:
+      213: 6597454844576755553
+    second: timeparticle_52
+  - first:
+      213: 5768220950089289583
+    second: timeparticle_53
+  - first:
+      213: 2003643196995178226
+    second: timeparticle_54
+  - first:
+      213: 2035457127568449067
+    second: timeparticle_55
+  - first:
+      213: -2720237813003444885
+    second: timeparticle_56
+  - first:
+      213: 3617082820595622260
+    second: timeparticle_57
+  - first:
+      213: -8503662018492691200
+    second: timeparticle_58
+  - first:
+      213: 3308228535624023962
+    second: timeparticle_59
+  - first:
+      213: 6143737750499906137
+    second: timeparticle_60
+  - first:
+      213: 2867792884566993857
+    second: timeparticle_61
+  - first:
+      213: 9048999028688748513
+    second: timeparticle_62
+  - first:
+      213: 8738373484765131968
+    second: timeparticle_63
+  - first:
+      213: -8384223888059636529
+    second: timeparticle_64
+  - first:
+      213: 3997629812558153327
+    second: timeparticle_65
+  - first:
+      213: 2569284655008215859
+    second: timeparticle_66
+  - first:
+      213: -3449617169708839826
+    second: timeparticle_67
+  - first:
+      213: -7581416488802482361
+    second: timeparticle_68
+  - first:
+      213: -4748607593288724075
+    second: timeparticle_69
+  - first:
+      213: 6021404406091951789
+    second: timeparticle_70
+  - first:
+      213: 6647054953108427507
+    second: timeparticle_71
+  - first:
+      213: 2507048183906593264
+    second: timeparticle_72
+  - first:
+      213: 2909408883544779003
+    second: timeparticle_73
+  - first:
+      213: 1730737534619006520
+    second: timeparticle_74
+  - first:
+      213: -7783682245035453102
+    second: timeparticle_75
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: timeparticle_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 599
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d4760d4b4c36e70800000000000000
+      internalID: 9107339152342863114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 475
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1761987f1f6cea430800000000000000
+      internalID: 3796190278462281329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 576
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2921a26fe5b050ad0800000000000000
+      internalID: -2736768696072924526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 576
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96772261710f2df00800000000000000
+      internalID: 1140237637624428393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 576
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc8c65c119ec0470800000000000000
+      internalID: 8362314870656109784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 576
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f3371b1b22526c0800000000000000
+      internalID: -4168887733479850153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_6
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 576
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a563c25f7147ad30800000000000000
+      internalID: 4442591572529472931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_7
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 606
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1579c2b5802cfa790800000000000000
+      internalID: -7516575911912892591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 575
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de463e60a66001060800000000000000
+      internalID: 6922039679720318189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 507
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd498ce2ae76f700800000000000000
+      internalID: 573785240754539972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_10
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 520
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931469f9f585a6a70800000000000000
+      internalID: 8820959987881099577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 497
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b3ff6aafa32a930800000000000000
+      internalID: 4152946654606998312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 424
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d76ad8ead4749f90800000000000000
+      internalID: -6947799841567512623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 397
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1916f1a5892a980800000000000000
+      internalID: -8529087231445331476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 388
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c74687ab03c2ef00800000000000000
+      internalID: 1144691710128179140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 388
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b0b5b467e743fd0800000000000000
+      internalID: -2363124857927169196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 418
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383d3acc2bf1c0700800000000000000
+      internalID: 507815710783951747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 419
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6312f355e7f6b290800000000000000
+      internalID: -7874834334082788501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 391
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a503ab301223f10800000000000000
+      internalID: 2247895463903648296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 391
+        width: 79
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8710aca30dad5e30800000000000000
+      internalID: 4493938234478303118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_20
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 390
+        width: 79
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6243bd7456e8b04a0800000000000000
+      internalID: -6626045861097163738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 397
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a80b81233e95860800000000000000
+      internalID: 7519290857173846660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 316
+        width: 79
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486db336b3382cd50800000000000000
+      internalID: 6756106682100340356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 317
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaf3e9231b04f6f0800000000000000
+      internalID: -651883869126788376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 334
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2cf167cd8b13840800000000000000
+      internalID: 5202142301603742445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_25
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 328
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9958c63d7b49610800000000000000
+      internalID: 1627127484074269127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 319
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c62236f37ce89c40800000000000000
+      internalID: 5519421326138418886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 319
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299efbdc227aac340800000000000000
+      internalID: 4884900513759357330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_28
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 319
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5eb906f09ac3fc0800000000000000
+      internalID: -3513747725745396297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_29
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 334
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dc59224a84fdde0800000000000000
+      internalID: -1306245497122075352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_30
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 341
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccedc04df1876dc0800000000000000
+      internalID: -3645802448619180858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_31
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 342
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1b49ef73a47900800000000000000
+      internalID: 681349213409975085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 236
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095baea578dc7a160800000000000000
+      internalID: 7036818924019299728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 235
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccb154eb4bd331a0800000000000000
+      internalID: -6830875090791318330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_34
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 235
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b5bcccc83f44320800000000000000
+      internalID: 2541423875800652667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 234
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c277afe7e194dd0800000000000000
+      internalID: -2501434587310773146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 234
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b07e5524ef44d80800000000000000
+      internalID: -8267203455082886388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_37
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 234
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0fca43552044b60800000000000000
+      internalID: 7729305425453838511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_38
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 266
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e9e4d34e5b46c00800000000000000
+      internalID: 893038618011934227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_39
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 233
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c01b1797f1d5b0800000000000000
+      internalID: -5345219054345861282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_40
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 267
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8403fc4d369208ca0800000000000000
+      internalID: -6016763593418133432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_41
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 233
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59387785427b2e970800000000000000
+      internalID: 8782783590056821653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_42
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 267
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3447e3767ac45d870800000000000000
+      internalID: 8706949736466117699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_43
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 257
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2f865c222812c60800000000000000
+      internalID: 7791651916180157161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_44
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 157
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80912f013e36b2d30800000000000000
+      internalID: 4407726487205189896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 157
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25d1c7f35f4a88f0800000000000000
+      internalID: -537529983459797714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 156
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaedca49a9d95070800000000000000
+      internalID: 8095741126302886564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_47
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 156
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b378a30bbbc971f0800000000000000
+      internalID: -1046581434306235470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_48
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 156
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fded0b25988ae3fd0800000000000000
+      internalID: -2360263846944252193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_49
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 156
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1a207adcb045890800000000000000
+      internalID: -7470332904002641453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_50
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 159
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f5c7f96b6acc310800000000000000
+      internalID: 1426698485259591478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_51
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 156
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce8e81954dffd880800000000000000
+      internalID: -8583863889508266291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_52
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 156
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f6da0f93ede8b50800000000000000
+      internalID: 6597454844576755553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 83
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fc90c8466dc0050800000000000000
+      internalID: 5768220950089289583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 83
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe86853fde5ecb10800000000000000
+      internalID: 2003643196995178226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_55
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 83
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e114429756f3c10800000000000000
+      internalID: 2035457127568449067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_56
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 82
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d185b1f16cf3ad0800000000000000
+      internalID: -2720237813003444885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_57
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 141
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47125c449a5723230800000000000000
+      internalID: 3617082820595622260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_58
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 82
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d03c1d27cecf980800000000000000
+      internalID: -8503662018492691200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_59
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 141
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f3ead435039ed20800000000000000
+      internalID: 3308228535624023962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_60
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 82
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95254b3eee0f24550800000000000000
+      internalID: 6143737750499906137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 81
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb220e2f627cc720800000000000000
+      internalID: 2867792884566993857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_62
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 81
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eff8d54ca0849d70800000000000000
+      internalID: 9048999028688748513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_63
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c43e12f260f44970800000000000000
+      internalID: 8738373484765131968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_64
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 79
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46cda9bc045ab80800000000000000
+      internalID: -8384223888059636529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_65
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 79
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f664a09522f6a7730800000000000000
+      internalID: 3997629812558153327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_66
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33370a4f7cee7a320800000000000000
+      internalID: 2569284655008215859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_67
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c8a64067f7020d0800000000000000
+      internalID: -3449617169708839826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_68
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 4
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74783aa1fd569c690800000000000000
+      internalID: -7581416488802482361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_69
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5919d489d8e891eb0800000000000000
+      internalID: -4748607593288724075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_70
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 7
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae25129763509350800000000000000
+      internalID: 6021404406091951789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_71
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2578223451f3c50800000000000000
+      internalID: 6647054953108427507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_72
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 8
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96a845a03dac220800000000000000
+      internalID: 2507048183906593264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_73
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 8
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf86d0207fb406820800000000000000
+      internalID: 2909408883544779003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_74
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 7
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b66e2e90d40810800000000000000
+      internalID: 1730737534619006520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timeparticle_75
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 4
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2559524ec3ecaf390800000000000000
+      internalID: -7783682245035453102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
