@@ -348,3 +348,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeInOut: {fileID: 4981138240546965003}
+  objects: {fileID: 4981138241211318070}
