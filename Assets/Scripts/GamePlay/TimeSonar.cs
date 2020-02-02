@@ -19,7 +19,8 @@ public class TimeSonar : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R) && !sonarState && TimeManager.GetInstance().era == Era.Present)
+        
+        if (Input.GetButtonDown("Fire1") && !sonarState && TimeManager.GetInstance().era == Era.Present)
         {
             sonarState = true;
             currentDuration = sonarDuration;

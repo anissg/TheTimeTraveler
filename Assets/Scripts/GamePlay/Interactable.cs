@@ -7,7 +7,7 @@ public class Interactable : MonoBehaviour {
 
     private void Update() {
         if (!_inRange) return;
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetButtonDown("Fire2")) {
             if (_inventory) _inventory.AddTree(transform.parent.gameObject);
         }
     }

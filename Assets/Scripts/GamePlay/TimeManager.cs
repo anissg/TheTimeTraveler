@@ -18,6 +18,7 @@ public class TimeManager : MonoBehaviour {
     [SerializeField] private Transform[] PlayerPos;
     [SerializeField] private GameObject present;
     [SerializeField] private GameObject past;
+    [SerializeField] public float gridScale;
 
     private static TimeManager _instance;
 

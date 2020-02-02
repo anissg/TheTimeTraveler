@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class LocalTimeTravel : MonoBehaviour
-{
+public class LocalTimeTravel : MonoBehaviour {
     [SerializeField] private GameObject shadowPresent;
     [SerializeField] private GameObject shadowPast;
     [SerializeField] private GameObject past;
@@ -12,21 +11,18 @@ public class LocalTimeTravel : MonoBehaviour
     [SerializeField] private GameObject timeTravelShadow;
     [SerializeField] private GameObject shadow;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         pastTilemapRenderers = past.GetComponentsInChildren<TilemapRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetButtonDown("Fire3"))
         {
             switch (TimeManager.GetInstance().era)
             {
                 case Era.Present:
-                    TimeManager.GetInstance().SwitchEra();
                     shadowPresent.SetActive(true);
                     shadowPast.SetActive(false);
                     shadow.SetActive(true);
@@ -35,7 +31,6 @@ public class LocalTimeTravel : MonoBehaviour
                         pastTilemapRenderer.maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
                     break;
                 case Era.Past:
-                    TimeManager.GetInstance().SwitchEra();
                     shadowPresent.SetActive(false);
                     shadowPast.SetActive(true);
                     shadow.SetActive(false);
@@ -44,6 +39,8 @@ public class LocalTimeTravel : MonoBehaviour
                         pastTilemapRenderer.maskInteraction = SpriteMaskInteraction.None;
                     break;
             }
+
+            TimeManager.GetInstance().SwitchEra();
         }
     }
 }

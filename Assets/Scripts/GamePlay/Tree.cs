@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public enum TreeState {
     Baby,
@@ -11,12 +12,12 @@ public class Tree : MonoBehaviour, IPuzzleElement {
 
     private Era _era;
     private GameObject _shadowTree;
-    private SpriteRenderer _sr;
     private Sprite babySprite, grownupSprite;
     private Vector3 _offset;
 
     void Start() {
         _offset = TimeManager.GetInstance().Offset;
+        _era = TimeManager.GetInstance().era;
 
         babySprite = babyTree.GetComponent<SpriteRenderer>().sprite;
         grownupSprite = grownupTree.GetComponent<SpriteRenderer>().sprite;
@@ -40,7 +41,6 @@ public class Tree : MonoBehaviour, IPuzzleElement {
         else if (treeState == TreeState.Baby && _era == Era.Past) {
             sr.sprite = grownupSprite;
         }
-        else sr.sprite = _sr.sprite;
     }
 
     public void UpdateEra(Era era) {
@@ -48,7 +48,7 @@ public class Tree : MonoBehaviour, IPuzzleElement {
             grownupTree.SetActive(true);
             babyTree.SetActive(false);
             _shadowTree.GetComponent<SpriteRenderer>().sprite = babySprite;
-            _shadowTree.transform.position = transform.position + _offset + babyTree.transform.localPosition;
+            _shadowTree.transform.position = transform.position + _offset; // + babyTree.transform.localPosition;
             treeState = TreeState.Grownup;
         }
 
@@ -56,10 +56,22 @@ public class Tree : MonoBehaviour, IPuzzleElement {
             babyTree.SetActive(true);
             grownupTree.SetActive(false);
             _shadowTree.GetComponent<SpriteRenderer>().sprite = grownupSprite;
-            _shadowTree.transform.position = transform.position + _offset + grownupTree.transform.localPosition;
+            _shadowTree.transform.position = transform.position + _offset; //+ grownupTree.transform.localPosition;
             treeState = TreeState.Baby;
         }
 
         _era = era;
+    }
+
+    public void Deactivate() {
+        gameObject.SetActive(false);
+        _shadowTree.SetActive(false);
+    }
+
+    public void OnEnable() {
+        if (_shadowTree) {
+            _shadowTree.SetActive(true);
+            _shadowTree.transform.position = transform.position + _offset;
+        }
     }
 }

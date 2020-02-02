@@ -17,7 +17,7 @@ public class Lever : MonoBehaviour {
 
         if (!_playerInRange) return;
 
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetButtonDown("Fire2")) {
             _leverState = !_leverState;
             _spriteRenderer.sprite = _leverState ? onTexture : offTexture;
 

@@ -61,7 +61,7 @@ public class Movement : MonoBehaviour
         Walk(dir);
         anim.SetHorizontalMovement(x, y, rb.velocity.y);
 
-        if (coll.onWall && Input.GetButton("Fire3") && canMove)
+        if (coll.OnWall(x) && Input.GetButton("Fire3") && canMove)
         {
             if(side != coll.wallSide)
                 anim.Flip(side);
