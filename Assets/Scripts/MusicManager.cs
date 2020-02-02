@@ -65,6 +65,8 @@ public class MusicManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         pastAudio.clip = pastClips[i];
         presentAudio.clip = presentClips[i];
+        pastAudio.Play();
+        presentAudio.Play();
         pastAudio.DOFade(1, 1);
         presentAudio.DOFade(1, 1);
 
