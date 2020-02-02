@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour {
-    public GameObject target;
-
     private bool inRange;
     private GameObject _player;
 
     private void Update() {
         if (!inRange) return;
         if (Input.GetButtonDown("Fire2")) {
-            _player.transform.position = target.transform.position;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
