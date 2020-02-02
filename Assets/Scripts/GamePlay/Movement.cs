@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Random = System.Random;
 
 public class Movement : MonoBehaviour
 {
+    public AudioSource audio;
     private Collision coll;
     [HideInInspector]
     public Rigidbody2D rb;
@@ -116,6 +118,12 @@ public class Movement : MonoBehaviour
                 Jump(Vector2.up, false);
             if (coll.onWall && !coll.onGround)
                 WallJump();
+            if (!audio.isPlaying)
+            {
+                audio.clip = MusicManager.Instance.ladderClips[UnityEngine.Random.Range(0, MusicManager.Instance.ladderClips.Length)];
+                audio.Play();
+            }
+
         }
 
         if (Input.GetButtonDown("Fire1") && !hasDashed)
@@ -128,6 +136,7 @@ public class Movement : MonoBehaviour
         {
             GroundTouch();
             groundTouch = true;
+
         }
 
         if(!coll.onGround && groundTouch)
@@ -151,7 +160,11 @@ public class Movement : MonoBehaviour
             anim.Flip(side);
         }
 
-
+        if (x != 0 && groundTouch && !audio.isPlaying)
+        {
+            audio.clip = MusicManager.Instance.footStepsClips[UnityEngine.Random.Range(0, MusicManager.Instance.footStepsClips.Length)];
+            audio.Play();
+        }
     }
 
     void GroundTouch()
@@ -256,11 +269,14 @@ public class Movement : MonoBehaviour
         if (!wallJumped)
         {
             rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
+
         }
         else
         {
             rb.velocity = Vector2.Lerp(rb.velocity, (new Vector2(dir.x * speed, rb.velocity.y)), wallJumpLerp * Time.deltaTime);
         }
+
+
     }
 
     private void Jump(Vector2 dir, bool wall)
