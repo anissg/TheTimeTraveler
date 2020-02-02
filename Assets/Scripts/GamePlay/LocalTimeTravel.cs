@@ -15,9 +15,13 @@ public class LocalTimeTravel : MonoBehaviour {
         pastTilemapRenderers = past.GetComponentsInChildren<TilemapRenderer>();
     }
 
-    void Update() {
-        if (Input.GetKeyDown(KeyCode.T)) {
-            switch (TimeManager.GetInstance().era) {
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire3"))
+        {
+            switch (TimeManager.GetInstance().era)
+            {
                 case Era.Present:
                     shadowPresent.SetActive(true);
                     shadowPast.SetActive(false);

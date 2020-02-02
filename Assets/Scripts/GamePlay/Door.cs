@@ -8,7 +8,7 @@ public class Door : MonoBehaviour {
 
     private void Update() {
         if (!inRange) return;
-        if (Input.GetKeyDown(KeyCode.W)) {
+        if (Input.GetButtonDown("Fire2")) {
             _player.transform.position = target.transform.position;
         }
     }

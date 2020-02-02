@@ -16,7 +16,8 @@ public class Inventory : MonoBehaviour {
 
     private void Update() {
         if (_tree == null) return;
-        if (Input.GetKeyDown(KeyCode.R) && col.onGround) {
+        if (Input.GetButtonDown("Fire2") && col.onGround) {
+            _tree.SetActive(true);
             _tree.transform.position = transform.position;
             _tree.SetActive(true);
             _tree = null;
