@@ -15,7 +15,15 @@ public class MusicManager : MonoBehaviour
     public AudioMixerGroup presentMixer;
     public AudioSource presentAudio;
     public AudioClip[] presentClips;
-
+    [Header("SFX")]
+    public AudioSource sfxAudioSource;
+    public AudioClip[] footStepsClips;
+    public AudioClip[] ladderClips;
+    public AudioClip[] uiClips;
+    public AudioClip[] deathClips;
+    public AudioClip[] leverClips;
+    public AudioClip[] doorClips;
+    public AudioClip[] powerClips;
     private void Awake()
     {
         Instance = this;
