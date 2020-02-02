@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_Levier.unity
     guid: a73386dc30f838349aaff8984899ca9f
   - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 530f9d6b1728c464b9a28b8b08f24ce3
+  - enabled: 1
     path: Assets/Scenes/Thx.unity
     guid: 47d1a0bdaed48114a83205f3f6811ff1
   m_configObjects: {}
