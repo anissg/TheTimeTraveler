@@ -10,8 +10,7 @@ public class Test : MonoBehaviour
     void Start()
     {
         InvokeRepeating("PlayFx",0,5);
-        InvokeRepeating("Past", 0,10);
-        InvokeRepeating("Present", 5,10);
+
     }
 
     // Update is called once per frame
@@ -21,13 +20,5 @@ public class Test : MonoBehaviour
         
     }
 
-    void Past()
-    {
-        MusicManager.Instance.MixerVolume(0);
-    }
 
-    void Present()
-    {
-        MusicManager.Instance.MixerVolume(-80);
-    }
 }

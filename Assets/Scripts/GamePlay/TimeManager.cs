@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public enum Era {
@@ -7,9 +8,14 @@ public enum Era {
 }
 
 public class TimeManager : MonoBehaviour {
-    [SerializeField] private Era era;
+    [SerializeField] public Era era;
     [SerializeField] private Transform levelGrid;
     [SerializeField] private Transform shadowGrid;
+    [SerializeField] private Transform player;
+    [Header("Level Set Up")]
+    [SerializeField] private Transform[] MainCamPos;
+    [SerializeField] private Transform[] OtherCamPos;
+    [SerializeField] private Transform[] PlayerPos;
 
     private static TimeManager _instance;
 
@@ -34,5 +40,23 @@ public class TimeManager : MonoBehaviour {
         foreach (Transform t in pe) {
             t.GetComponent<IPuzzleElement>()?.UpdateEra(era);
         }
+
+        MusicManager.Instance.SwitchMusic();
+    }
+
+
+    public void SetLevel(int i)
+    {
+        StartCoroutine(SetLevelProperties(i));
+    }
+
+    IEnumerator  SetLevelProperties(int i)
+    {
+        UIManager.Instance.FadeIn();
+        yield return new WaitForSeconds(1f);
+        Camera.main.transform.position = MainCamPos[i].position;
+        Camera.main.transform.position = MainCamPos[i].position;
+        player.position = PlayerPos[i].position;
+        UIManager.Instance.FadeOut();
     }
 }
