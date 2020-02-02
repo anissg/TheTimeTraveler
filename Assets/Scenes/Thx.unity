@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TTT
+  m_text: THX
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea36e104f0cdbc247b97aac89a21814e, type: 2}
   m_sharedMaterial: {fileID: -3422684339607178585, guid: ea36e104f0cdbc247b97aac89a21814e,
@@ -2649,7 +2649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: press any key
+  m_text: for playin, playa!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea36e104f0cdbc247b97aac89a21814e, type: 2}
   m_sharedMaterial: {fileID: -3422684339607178585, guid: ea36e104f0cdbc247b97aac89a21814e,
@@ -2716,10 +2716,10 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40604663, z: 14.021277, w: 2.9733486}
+  m_margin: {x: -1.9813929, y: 0.40604663, z: 12.096495, w: 2.9733486}
   m_textInfo:
     textComponent: {fileID: 1634856414}
-    characterCount: 13
+    characterCount: 18
     spriteCount: 0
     spaceCount: 2
     wordCount: 3

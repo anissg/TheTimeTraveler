@@ -29,9 +29,8 @@ public class Splash : MonoBehaviour
         {
             //spriteRenderer.
         }
-        else if (timer > setTime)
-        {
-            SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings + 1); //Loads Level at index
+        else if (timer > setTime) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
