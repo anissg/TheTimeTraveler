@@ -16,6 +16,9 @@ public class TimeManager : MonoBehaviour {
     [SerializeField] private Transform[] MainCamPos;
     [SerializeField] private Transform[] OtherCamPos;
     [SerializeField] private Transform[] PlayerPos;
+    [SerializeField] private GameObject present;
+    [SerializeField] private GameObject past;
+    [SerializeField] public float gridScale;
 
     private static TimeManager _instance;
 
@@ -34,14 +37,16 @@ public class TimeManager : MonoBehaviour {
     public void SwitchEra() {
         era = era == Era.Past ? Era.Present : Era.Past;
 
-        Debug.Log(era);
+        present.SetActive(!present.activeSelf);
+        past.SetActive(!past.activeSelf);
         
         var pe = transform.Find("PuzzleElements");
-        foreach (Transform t in pe) {
-            t.GetComponent<IPuzzleElement>()?.UpdateEra(era);
-        }
 
-        MusicManager.Instance.SwitchMusic();
+        if(pe != null)
+            foreach (Transform t in pe)
+                t.GetComponent<IPuzzleElement>()?.UpdateEra(era);
+
+        //MusicManager.Instance.SwitchMusic();
     }
 
 

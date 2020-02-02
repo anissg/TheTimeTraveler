@@ -2,8 +2,6 @@
 
 public class Lever : MonoBehaviour {
     [SerializeField] private DigitalGlitch glitchEffect;
-    [SerializeField] private GameObject present;
-    [SerializeField] private GameObject past;
     [SerializeField] private Sprite offTexture, onTexture;
 
     private bool _playerInRange;
@@ -24,8 +22,6 @@ public class Lever : MonoBehaviour {
             _spriteRenderer.sprite = _leverState ? onTexture : offTexture;
 
             glitchEffect.intensity = 0.8f;
-            present.SetActive(!present.activeSelf);
-            past.SetActive(!past.activeSelf);
             TimeManager.GetInstance().SwitchEra();
         }
     }

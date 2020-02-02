@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RenderTextureMaterial
+  m_Name: SonarRenderTexture
   m_Shader: {fileID: 4800000, guid: 32a580e43d68faf40b9595b353b0fc91, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -85,7 +85,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
