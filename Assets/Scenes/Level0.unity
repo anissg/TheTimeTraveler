@@ -1870,18 +1870,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93941ed5f7d7beb44805d38639b5072e, type: 3}
---- !u!82 &1611728405 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3064808163252059334, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-    type: 3}
-  m_PrefabInstance: {fileID: 3064808163657649726}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1622383287 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3064808162924295613, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-    type: 3}
-  m_PrefabInstance: {fileID: 3064808163657649726}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1669753542
 GameObject:
   m_ObjectHideFlags: 0
@@ -2997,39 +2985,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 402600084964588471, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-        type: 3}
-      propertyPath: ladderClips.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 402600084964588471, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-        type: 3}
-      propertyPath: pastmixer
-      value: 
-      objectReference: {fileID: 2616123294510734992, guid: 40e41781d7cb42c4cb3923f2ea534155,
-        type: 2}
-    - target: {fileID: 402600084964588471, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-        type: 3}
-      propertyPath: presentMixer
-      value: 
-      objectReference: {fileID: 4861496719277288538, guid: 40e41781d7cb42c4cb3923f2ea534155,
-        type: 2}
-    - target: {fileID: 402600084964588471, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-        type: 3}
-      propertyPath: pastMixer
-      value: 
-      objectReference: {fileID: 2616123294510734992, guid: 40e41781d7cb42c4cb3923f2ea534155,
-        type: 2}
-    - target: {fileID: 402600084964588471, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-        type: 3}
-      propertyPath: pastAudio
-      value: 
-      objectReference: {fileID: 1622383287}
-    - target: {fileID: 402600084964588471, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
-        type: 3}
-      propertyPath: presentAudio
-      value: 
-      objectReference: {fileID: 1611728405}
     - target: {fileID: 894222509744688122, guid: b1a8a4da8b37f7d4dbe2972236bd3e58,
         type: 3}
       propertyPath: m_Name

@@ -87,7 +87,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: db429f12c80ff404293ed9990ef02e41, type: 3}
   - {fileID: 8300000, guid: 85c21779345b0df43ac1b0791031e745, type: 3}
   - {fileID: 8300000, guid: a0996e3780cc6fe4e92a63d571259d97, type: 3}
-  - {fileID: 8300000, guid: fca4bae45937969469a9b78019e0d7ae, type: 3}
   uiClips:
   - {fileID: 8300000, guid: 7bf4142bb8ddd05428e66d27e2a7fd87, type: 3}
   - {fileID: 8300000, guid: d994b4e18342f204b8ceabdb6c8ee71b, type: 3}

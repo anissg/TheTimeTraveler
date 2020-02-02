@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -8,6 +10,13 @@ public class UIManager : MonoBehaviour
     public static UIManager Instance;
     public Animation FadeInOut;
     public VerticalLayoutGroup objects;
+    public GameObject textObj;
+    public TextMeshProUGUI textarea;
+    public Image image;
+    public string[] texts;
+    public Image[] images;
+
+    public int currentText = 0;
     // Start is called before the first frame update
     public void Awake()
     {
@@ -15,6 +24,37 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+    }
+
+
+    void Update()
+    {
+        //Debug.Log(SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1));
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1))
+        {
+           // Debug.Log("hello");
+            textObj.SetActive(true);
+            SetText(currentText);
+            if (Input.GetButtonDown("Jump"))
+            {
+                currentText++;
+                if (currentText == texts.Length)
+                {
+                    FadeInNextScene();
+                }
+                    
+            }
+        }
+        else
+        {
+            textObj.SetActive(false);
+        }
+    }
+
+    public void FadeInNextScene()
+    {
+        StartCoroutine("NextScene");
     }
 
     public GameObject AddObject(GameObject obj)
@@ -22,7 +62,12 @@ public class UIManager : MonoBehaviour
         return Instantiate(obj, objects.transform);
     }
 
-
+    IEnumerator NextScene()
+    {
+        FadeIn();
+        yield return  new WaitForSeconds(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     public void FadeIn()
     {
         FadeInOut.Play("FadeIn");
@@ -30,5 +75,11 @@ public class UIManager : MonoBehaviour
     public void FadeOut()
     {
         FadeInOut.Play("FadeOut");
+    }
+
+    public void SetText(int i)
+    {
+        textarea.text = texts[i];
+        image = images[i];
     }
 }
