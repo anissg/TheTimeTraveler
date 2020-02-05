@@ -11,6 +11,18 @@ TextureImporter:
   - first:
       213: 1290931809648953716
     second: full jump animation outline_2
+  - first:
+      213: 5952226361712452469
+    second: full jump animation outline_3
+  - first:
+      213: 5648197640227820275
+    second: full jump animation outline_0
+  - first:
+      213: -4389267101725543897
+    second: full jump animation outline_1
+  - first:
+      213: -7231570509524496737
+    second: full jump animation outline_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,10 +110,10 @@ TextureImporter:
       name: full jump animation outline_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 19
-        height: 36
+        width: 22
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e80d15c6e6d0fd80800000000000000
-      internalID: -8218833033313318679
+      spriteID: 3f29afe04dd626e40800000000000000
+      internalID: 5648197640227820275
       vertices: []
       indices: 
       edges: []
@@ -119,10 +131,10 @@ TextureImporter:
       name: full jump animation outline_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1
-        width: 20
-        height: 36
+        x: 22
+        y: 0
+        width: 22
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f8c6a958c70f79b0800000000000000
-      internalID: -5080333297571673871
+      spriteID: 722375983d03613c0800000000000000
+      internalID: -4389267101725543897
       vertices: []
       indices: 
       edges: []
@@ -140,10 +152,10 @@ TextureImporter:
       name: full jump animation outline_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 1
+        x: 44
+        y: 0
         width: 22
-        height: 37
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +163,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 479c06724af4ae110800000000000000
-      internalID: 1290931809648953716
+      spriteID: f9e0a93afec44ab90800000000000000
+      internalID: -7231570509524496737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full jump animation outline_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5732698f65e8a9250800000000000000
+      internalID: 5952226361712452469
       vertices: []
       indices: 
       edges: []

@@ -27,6 +27,7 @@ public class LocalTimeTravel : MonoBehaviour {
                     shadowPast.SetActive(false);
                     shadow.SetActive(true);
                     timeTravelShadow.SetActive(true);
+                    
                     foreach (var pastTilemapRenderer in pastTilemapRenderers)
                         pastTilemapRenderer.maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
                     break;
