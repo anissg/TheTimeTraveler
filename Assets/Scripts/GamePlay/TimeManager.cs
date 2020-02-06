@@ -45,7 +45,6 @@ public class TimeManager : MonoBehaviour {
         if(pe != null)
             foreach (Transform t in pe)
                 t.GetComponent<IPuzzleElement>()?.UpdateEra(era);
-        MusicManager.Instance.SwitchMusic();
         //MusicManager.Instance.SwitchMusic();
     }
 

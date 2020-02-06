@@ -1,9 +1,9 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum TreeState {
-    Baby,
-    Grownup
+    None = 0,
+    Baby = 1,
+    Grownup = 2
 }
 
 public class Tree : MonoBehaviour, IPuzzleElement {
@@ -32,8 +32,9 @@ public class Tree : MonoBehaviour, IPuzzleElement {
         _shadowTree = new GameObject(name + "_shadow");
         var position = transform.position;
         _shadowTree.transform.position =
-            (treeState == TreeState.Grownup) ? position + _offset + babyTree.transform.localPosition : position + _offset + grownupTree.transform.localPosition;
-
+            treeState == TreeState.Grownup
+                ? position + _offset + babyTree.transform.localPosition
+                : position + _offset + grownupTree.transform.localPosition;
         var sr = _shadowTree.AddComponent<SpriteRenderer>();
         if (treeState == TreeState.Grownup && _era == Era.Present) {
             sr.sprite = babySprite;
@@ -44,20 +45,44 @@ public class Tree : MonoBehaviour, IPuzzleElement {
     }
 
     public void UpdateEra(Era era) {
-        if (era > _era && treeState == TreeState.Baby) {
-            grownupTree.SetActive(true);
-            babyTree.SetActive(false);
-            _shadowTree.GetComponent<SpriteRenderer>().sprite = babySprite;
-            _shadowTree.transform.position = transform.position + _offset; // + babyTree.transform.localPosition;
-            treeState = TreeState.Grownup;
+        if (!gameObject.activeSelf) return;
+
+        if (era > _era) {
+            switch (treeState) {
+                case TreeState.Grownup:
+                    break;
+                case TreeState.None:
+                    babyTree.SetActive(true);
+                    _shadowTree.GetComponent<SpriteRenderer>().sprite = null;
+                    treeState = TreeState.Baby;
+                    break;
+                case TreeState.Baby:
+                    babyTree.SetActive(false);
+                    grownupTree.SetActive(true);
+                    _shadowTree.GetComponent<SpriteRenderer>().sprite = babySprite;
+                    _shadowTree.transform.position = transform.position + _offset;
+                    treeState = TreeState.Grownup;
+                    break;
+            }
         }
 
-        else if (era < _era && treeState == TreeState.Grownup) {
-            babyTree.SetActive(true);
-            grownupTree.SetActive(false);
-            _shadowTree.GetComponent<SpriteRenderer>().sprite = grownupSprite;
-            _shadowTree.transform.position = transform.position + _offset; //+ grownupTree.transform.localPosition;
-            treeState = TreeState.Baby;
+        if (era < _era) {
+            switch (treeState) {
+                case TreeState.None:
+                    break;
+                case TreeState.Baby:
+                    babyTree.SetActive(false);
+                    _shadowTree.GetComponent<SpriteRenderer>().sprite = null;
+                    treeState = TreeState.None;
+                    break;
+                case TreeState.Grownup:
+                    babyTree.SetActive(true);
+                    grownupTree.SetActive(false);
+                    _shadowTree.GetComponent<SpriteRenderer>().sprite = grownupSprite;
+                    _shadowTree.transform.position = transform.position + _offset;
+                    treeState = TreeState.Baby;
+                    break;
+            }
         }
 
         _era = era;
@@ -68,10 +93,11 @@ public class Tree : MonoBehaviour, IPuzzleElement {
         _shadowTree.SetActive(false);
     }
 
-    public void OnEnable() {
+    private void OnEnable() {
         if (_shadowTree) {
             _shadowTree.SetActive(true);
             _shadowTree.transform.position = transform.position + _offset;
         }
+        _era = TimeManager.GetInstance().era;
     }
 }
