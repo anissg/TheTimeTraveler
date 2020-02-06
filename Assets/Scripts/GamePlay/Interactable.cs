@@ -2,29 +2,25 @@
 using UnityEngine;
 
 public class Interactable : MonoBehaviour {
-    public bool _inRange;
-    public Inventory _inventory;
+    public bool inRange;
+    public Inventory inventory;
 
     private void Update() {
-        if (!_inRange) return;
+        if (!inRange) return;
         if (Input.GetButtonDown("Fire2")) {
-            if (_inventory) _inventory.AddTree(transform.parent.gameObject);
+            if (inventory) inventory.AddTree(transform.parent.gameObject);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        _inRange = true;
+        inRange = true;
         var inv = other.GetComponent<Inventory>();
         if (inv) {
-            _inventory = inv;
+            inventory = inv;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
-        _inRange = false;
-        var inv = other.GetComponent<Inventory>();
-        if (inv) {
-            _inventory = inv;
-        }
+        inRange = false;
     }
 }
