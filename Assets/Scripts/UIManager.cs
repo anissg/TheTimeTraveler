@@ -42,14 +42,13 @@ public class UIManager : MonoBehaviour
             SetText(currentText);
             if (Input.GetButtonDown("Jump"))
             {
-                MusicManager.Instance.PlayUiSfx(currentText % 2);
                 currentText++;
                 if (currentText == texts.Length)
                 {
                     
                     FadeInNextScene();
                 }
-                    
+                MusicManager.Instance.PlayUiSfx(currentText % 2);
             }
         }
         else

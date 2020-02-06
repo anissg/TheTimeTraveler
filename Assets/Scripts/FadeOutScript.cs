@@ -9,7 +9,7 @@ public class FadeOutScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UIManager.Instance.FadeOut();
+        UIManager.Instance?.FadeOut();
         if (MusicManager.Instance.CurrentTrack != MusicToPlay)
         {
             MusicManager.Instance.SwitchMusic();
