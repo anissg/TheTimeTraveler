@@ -128,8 +128,8 @@ public class Movement : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1") && !hasDashed)
         {
-            if(xRaw != 0 || yRaw != 0)
-                Dash(xRaw, yRaw);
+            //if(xRaw != 0 || yRaw != 0)
+                //Dash(xRaw, yRaw);
         }
 
         if (coll.onGround && !groundTouch)

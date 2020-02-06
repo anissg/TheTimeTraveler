@@ -29,8 +29,12 @@ public class Collision : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         var grounded = Physics2D.OverlapCircle((Vector2) transform.position + bottomOffset, collisionRadius, groundLayer);
+        if(grounded)
+        {
+            onTimelessGround = grounded.gameObject.CompareTag("Timeless");
+        }
         onGround = grounded;
-        onTimelessGround = grounded.gameObject.CompareTag("Timeless"); 
+
         onWall = Physics2D.OverlapCircle((Vector2) transform.position + rightOffset, collisionRadius, groundLayer)
                  || Physics2D.OverlapCircle((Vector2) transform.position + leftOffset, collisionRadius, groundLayer);
         onRightWall = Physics2D.OverlapCircle((Vector2) transform.position + rightOffset, collisionRadius, groundLayer);

@@ -30,6 +30,7 @@ public class Tree : MonoBehaviour, IPuzzleElement {
         }
 
         _shadowTree = new GameObject(name + "_shadow");
+        _shadowTree.GetComponent<SpriteRenderer>().sortingOrder = 1;
         var position = transform.position;
         _shadowTree.transform.position =
             treeState == TreeState.Grownup

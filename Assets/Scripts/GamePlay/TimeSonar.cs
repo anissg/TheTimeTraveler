@@ -24,7 +24,7 @@ public class TimeSonar : MonoBehaviour
         {
             sonarState = true;
             currentDuration = sonarDuration;
-            sonarShadow.SetActive(true);
+           // sonarShadow?.SetActive(true);
             sonar.SetActive(true);
 
             switch (TimeManager.GetInstance().era)
@@ -45,7 +45,7 @@ public class TimeSonar : MonoBehaviour
         else
         {
             sonar.SetActive(false);
-            sonarShadow.SetActive(false);
+            //sonarShadow.SetActive(false);
             sonarState = false;
         }
 
