@@ -14,6 +14,10 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     void Update() {
         if (Input.GetButton("Submit"))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        {
+            MusicManager.Instance.PlayUiSfx(2);
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
+
+        }
     }
 }

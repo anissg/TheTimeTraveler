@@ -46,18 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4b9f1f6a8583d4d95f76d96654a941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pastMixer: {fileID: 2616123294510734992, guid: 40e41781d7cb42c4cb3923f2ea534155,
-    type: 2}
-  pastAudio: {fileID: 3064808162924295613}
-  pastClips:
-  - {fileID: 8300000, guid: 7843e393f6d13c1429cd946b8a37c0e4, type: 3}
-  - {fileID: 8300000, guid: 156b53360e572e24d8115d606b82ee2d, type: 3}
-  - {fileID: 8300000, guid: 45a4c78c80b67e248a823beac070e745, type: 3}
-  - {fileID: 8300000, guid: a70dc99cf0e45a34ab786015401ecd3c, type: 3}
-  - {fileID: 8300000, guid: a5c0488a26cb2854589a9da6b10dddd5, type: 3}
-  - {fileID: 8300000, guid: 3e13f6caa7bd8774e8b580b4f872c6c5, type: 3}
-  - {fileID: 8300000, guid: bac4e8604082d3f488e7387ca52b1e5b, type: 3}
-  - {fileID: 8300000, guid: 2fcb4df7327a7e2468c8dcdf397ba4b1, type: 3}
   presentMixer: {fileID: 4861496719277288538, guid: 40e41781d7cb42c4cb3923f2ea534155,
     type: 2}
   presentAudio: {fileID: 3064808163252059334}
@@ -72,7 +60,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2fcb4df7327a7e2468c8dcdf397ba4b1, type: 3}
   sfxAudioSource: {fileID: 1051625980312864341}
   footStepsClips:
-  - {fileID: 8300000, guid: f05346dcb53a67542b7d0551528f75a0, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: 5c1e83cdfcd2f4a43983ad223c42201c, type: 3}
   - {fileID: 8300000, guid: c869a7c47ead5504ca47394d26bd9e69, type: 3}
   - {fileID: 8300000, guid: 204086a570441c14c8b12b447b95c89f, type: 3}
@@ -101,6 +89,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 801e0672f70cdb147af9945ad7f0aaa3, type: 3}
   powerClips:
   - {fileID: 8300000, guid: 0e7feadfb4f404748bf042b28fda58c5, type: 3}
+  UiClips: []
 --- !u!1 &3064808162924295612
 GameObject:
   m_ObjectHideFlags: 0
